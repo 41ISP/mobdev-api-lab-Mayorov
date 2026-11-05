@@ -1,0 +1,18 @@
+meta {
+  name: 01 Регистрация
+  type: http
+  seq: 1
+}
+
+post {
+  url: https://api.kitek-pg.ru/api/marketplace/auth/register
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "username": "mayorov_buyer_01",
+    "password": "labpass123"
+  }
+}

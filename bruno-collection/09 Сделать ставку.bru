@@ -1,0 +1,21 @@
+meta {
+  name: 09 Сделать ставку
+  type: http
+  seq: 9
+}
+
+post {
+  url: https://api.kitek-pg.ru/api/marketplace/items/1793541383232/bids
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE3OTM1NDE4ODE3NDYsInVzZXJuYW1lIjoibWF5b3Jvdl9idXllcl8wMSIsImlhdCI6MTc5MzU0MTg4MSwiZXhwIjoxNzkzNjI4MjgxfQ.-hBDzXK_FQY5D_4lo4T_g_Ob2LgPdoo2yuNUUaNak8w
+}
+
+body:json {
+  {
+    "amount": 5500
+  }
+}
